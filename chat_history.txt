@@ -1,0 +1,3 @@
+chat
+ola
+bom dia

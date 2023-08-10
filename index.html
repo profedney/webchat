@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>WEB chat</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Web Chat</title>
 </head>
 <body>
-    <h1>BEm vindo ao WEB chat</h1>
-  <div class="chat-container">
-    <div class="chat-box" id="chatBox">
-      <!-- Messages will be displayed here -->
+    <div class="chat-container">
+        <div class="chat-history" id="chat-history">
+            <!-- Aqui será exibido o histórico do chat -->
+        </div>
+        <div class="chat-input">
+            <input type="text" id="message-input" placeholder="Digite sua mensagem...">
+            <button id="send-button">Enviar</button>
+        </div>
     </div>
-    <div class="input-container">
-      <input type="text" id="messageInput" placeholder="Type your message...">
-      <button id="sendButton">Send</button>
-    </div>
-  </div>
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
